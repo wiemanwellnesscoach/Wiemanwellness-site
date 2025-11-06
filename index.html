@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Whole-person wellness through six interconnected pillars — guiding you to live fully, track mindfully, and thrive daily.">
+  <title>Wieman Wellness | Live Fully. Track Mindfully. Thrive Daily.</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Nunito Sans', sans-serif; background-color: #f8f8f5; color: #333; }
+    h1, h2, h3 { font-family: 'Lora', serif; }
+    nav { position: sticky; top: 0; z-index: 50; background-color: rgba(255,255,255,0.95); box-shadow: 0 1px 4px rgba(0,0,0,0.05); }
+    .hero-button { border: 2px solid white; color: white; background: transparent; transition: background-color 0.2s ease; }
+    .hero-button:hover { background-color: #0d9488; color: white; }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="flex justify-between items-center px-6 md:px-20 py-4">
+    <a href="index.html" class="text-xl font-semibold text-teal-700">Wieman Wellness</a>
+    <div class="space-x-6 text-gray-700 font-semibold">
+      <a href="index.html" class="hover:text-teal-600">Home</a>
+      <a href="six-pillars.html" class="hover:text-teal-600">Six Pillars</a>
+      <a href="#services" class="hover:text-teal-600">Services</a>
+      <a href="https://calendly.com/wiemanwellnesscoach/initial-consultation" class="hover:text-teal-600">Book</a>
+      <a href="#blog" class="hover:text-teal-600">Blog</a>
+      <a href="#footer" class="hover:text-teal-600">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="relative bg-cover bg-center h-screen" style="background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1950&q=80');">
+    <div class="absolute inset-0 bg-black opacity-40"></div>
+    <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
+      <h1 class="text-5xl md:text-7xl font-bold mb-2 leading-tight">Whole-Person Wellness:</h1>
+      <h2 class="text-3xl md:text-5xl font-light mb-6 tracking-wide">Mind. Body. Money. Purpose.</h2>
+      <p class="text-lg md:text-2xl mb-8">At Wieman Wellness, we help you flourish through six interconnected pillars.</p>
+      <div class="space-x-4">
+        <a href="six-pillars.html" class="hero-button font-semibold py-3 px-6 rounded-lg">Discover the Six Pillars</a>
+        <a href="https://calendly.com/wiemanwellnesscoach/initial-consultation" target="_blank" class="hero-button font-semibold py-3 px-6 rounded-lg">Book a Free Financial Coaching Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 px-6 md:px-20 bg-white">
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80" alt="Jason and Delilah Wieman" class="rounded-2xl shadow-lg">
+      <div>
+        <h2 class="text-3xl font-bold mb-4">About Jason & Delilah</h2>
+        <p class="mb-4">We’re Jason and Delilah Wieman — the heart and hands behind Wieman Wellness. Rooted in resilience, service, and a shared calling to help others navigate life’s transitions, Wieman Wellness is our way of offering support that’s both practical and deeply personal.</p>
+        <p class="mb-4">Dr. Jason Wieman is a retired Army physician who now supports the mental health of service members and their families. Delilah Wieman helps individuals and families bring clarity, confidence, and calm to their relationship with money — transforming stress into stability and purpose.</p>
+        <p class="mb-4">Together, we guide others through six pillars of wellness — mental, physical, financial, relational, vocational, and spiritual — so they can live fully, track mindfully, and thrive daily.</p>
+        <div class="mt-6">
+          <a href="six-pillars.html" class="bg-teal-600 hover:bg-teal-700 text-white py-3 px-6 rounded-lg">Learn Our Story</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-20 px-6 md:px-20 bg-green-50">
+    <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-8 rounded-2xl shadow-md text-center">
+        <i class="fas fa-hand-holding-usd text-teal-600 text-4xl mb-4"></i>
+        <h3 class="text-2xl font-semibold mb-2">Financial Coaching</h3>
+        <p class="mb-4">We believe financial healing begins with compassion, not criticism — and lasting change comes from building confidence, not shame. Through personalized coaching, we help individuals and families reduce stress, tackle debt, build savings, and restore hope.</p>
+        <a href="https://calendly.com/wiemanwellnesscoach/initial-consultation" class="text-teal-700 font-semibold">Learn More →</a>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-md text-center">
+        <i class="fas fa-leaf text-teal-600 text-4xl mb-4"></i>
+        <h3 class="text-2xl font-semibold mb-2">Weekly Joy & Stress-Reduction Tips</h3>
+        <p class="mb-4">Simple, mindful practices to help you slow down, breathe, and rediscover joy in everyday moments.</p>
+        <a href="#" class="text-teal-700 font-semibold">Learn More →</a>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-md text-center">
+        <i class="fas fa-book-open text-teal-600 text-4xl mb-4"></i>
+        <h3 class="text-2xl font-semibold mb-2">Book & Speaking</h3>
+        <p class="mb-4">Inspiring keynotes and heartfelt conversations that weave purpose, resilience, and wellness into real life.</p>
+        <a href="#" class="text-teal-700 font-semibold">Learn More →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="bg-teal-700 text-white py-10 px-6 md:px-20">
+    <div class="text-center mb-6">
+      <p class="italic mb-2">“Grounded in compassion. Guided by purpose. Committed to whole-person growth.”</p>
+      <p class="mb-4">Helping people live fully, track mindfully, and thrive daily — one pillar at a time.</p>
+      <div class="flex justify-center space-x-4 text-xl mb-4">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <p class="text-sm">© 2025 Wieman Wellness | All Rights Reserved</p>
+      <p class="text-xs mt-2">Proudly veteran-founded — Rooted in service & resilience.</p>
+    </div>
+  </footer>
+</body>
+</html>
