@@ -13,6 +13,27 @@
     h1, h2, h3 { font-family: 'Lora', serif; }
     section { background-size: cover; background-position: center; }
     nav { position: sticky; top: 0; z-index: 50; background-color: rgba(255,255,255,0.95); box-shadow: 0 1px 4px rgba(0,0,0,0.05); }
+body { font-family: 'Nunito Sans', sans-serif; background-color: #f8f8f5; color: #333; }
+h1, h2, h3 { font-family: 'Lora', serif; }
+section { background-size: cover; background-position: center; }
+nav { position: sticky; top: 0; z-index: 50; background-color: rgba(255,255,255,0.95); box-shadow: 0 1px 4px rgba(0,0,0,0.05); }
+
+/* --- ADD THIS BELOW --- */
+:root { --cream:#F7F3EF; }
+
+.pillar-cream-overlay{
+  position:absolute;
+  inset:0;
+  background:var(--cream);
+  opacity:0.22;
+}
+
+.pillar-content-card{
+  position:relative;
+  background:rgba(255,255,255,0.94);
+  border-radius:18px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
   </style>
 </head>
 <body>
@@ -109,3 +130,4 @@
   </footer>
 </body>
 </html>
+
