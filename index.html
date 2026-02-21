@@ -12,8 +12,20 @@
     body { font-family: 'Nunito Sans', sans-serif; background-color: #f8f8f5; color: #333; }
     h1, h2, h3 { font-family: 'Lora', serif; }
     nav { position: sticky; top: 0; z-index: 50; background-color: rgba(255,255,255,0.95); box-shadow: 0 1px 4px rgba(0,0,0,0.05); }
-    .hero-button { border: 2px solid white; color: white; background: transparent; transition: background-color 0.2s ease; }
-    .hero-button:hover { background-color: #0d9488; color: white; }
+    .hero-button {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  backdrop-filter: blur(6px);
+  transition: all 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #1f6f78; /* soft spa teal */
+  border-color: #1f6f78;
+  color: #ffffff;
+}
   </style>
 </head>
 <body>
@@ -101,3 +113,4 @@
   </footer>
 </body>
 </html>
+
